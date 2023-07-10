@@ -17,7 +17,7 @@
 .btn-primary {
   border: 0;
   border-radius: 8px;
-  background: #e55473;
+  background-color: #e55473;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -61,6 +61,7 @@ header {
   font-weight: 800;
   padding-bottom: 32px;
 }
+
 .banner-image {
   /* width: 60%; */
   /* margin-right: 100px; */
@@ -75,14 +76,14 @@ header {
 /* main area style start */
 
 main {
-  width: 80vw;
-  margin: auto;
+  /* width: 80vw;
+  margin: auto; */
 }
 
 /* featured flowers section  */
 .featured-flowers {
-  width: 80vw;
-  margin: auto;
+  /* width: 80vw; */
+  margin: 0 150px;
 }
 .featured-flowers-description {
   text-align: center;
@@ -103,18 +104,19 @@ main {
 .flowers {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .purple-tulip {
-  background: rgba(167, 33, 98, 0.15);
+  background-color: rgba(167, 33, 98, 0.15);
 }
 
 .poppy {
-  background: rgba(5, 151, 160, 0.15);
+  background-color: rgba(5, 151, 160, 0.15);
 }
 
 .yellow-tulip {
-  background: rgba(71, 125, 17, 0.15);
+  background-color: rgba(71, 125, 17, 0.15);
 }
 .flower-description {
   text-align: center;
@@ -139,11 +141,14 @@ main {
 
 /* support and delivery info style area */
 
+.support-delivery-info-contianer {
+}
+
 .informations {
   height: 30vh;
-  margin: 130px 0;
+  margin: 130px 125px;
   border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
+  background-color: rgba(39, 39, 39, 0.05);
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -159,7 +164,53 @@ main {
 }
 .icon {
   display: block;
+  margin: 15px auto;
+}
+
+/* hot deal section style area*/
+
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container {
+  width: 80vw;
   margin: auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 128px;
+  text-align: center;
+}
+
+.hot-deal-content-description {
+  padding: 20px 80px;
+}
+
+/* .hot-deal-img {
+  width: 320px;
+} */
+
+/* instagram area style */
+
+.instagram {
+  width: 80vw;
+  margin: auto;
+}
+
+.insta-section-description {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.instagram-images-card {
+  display: flex;
+  gap: 20px;
+}
+
+.image-card img {
+  width: 100%;
 }
 
 /* main area style end */
