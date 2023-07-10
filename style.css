@@ -71,3 +71,65 @@ header {
   /* width: 70%; */
 }
 /* header area style end */
+
+/* main area style start */
+
+main {
+  width: 80vw;
+  margin: auto;
+}
+
+/* featured flowers section  */
+
+.featured-flowers-description {
+  text-align: center;
+  margin: 25px;
+}
+
+.featured-box {
+  /* width: 100%; */
+  width: 360px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.flowers {
+  display: flex;
+  gap: 25px;
+}
+
+.purple-tulip {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.poppy {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-tulip {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-description a {
+  color: #272727;
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 700;
+}
+
+.flower-img {
+  max-width: 100%;
+  position: absolute;
+  inset: 70px 0 0 0;
+  margin: auto;
+}
+
+.yellow-tulip-img {
+  inset: 26px 0 0 0;
+}
+
+/* main area style end */
