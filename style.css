@@ -148,6 +148,7 @@ main {
   justify-content: center;
   gap: 100px;
   align-items: center;
+  padding: 86px 120px;
 }
 
 .info-description {
