@@ -25,6 +25,10 @@
   margin-top: 32px;
 }
 
+.primary-color {
+  color: #e55473;
+}
+
 .description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -82,8 +86,8 @@ main {
 
 /* featured flowers section  */
 .featured-flowers {
-  /* width: 80vw; */
-  margin: 0 150px;
+  width: 80vw;
+  margin: 0 auto;
 }
 .featured-flowers-description {
   text-align: center;
@@ -94,7 +98,7 @@ main {
 }
 
 .featured-box {
-  width: 350px;
+  width: 380px;
   height: 500px;
   border-radius: 300px 300px 0px 0px;
   position: relative;
@@ -142,13 +146,15 @@ main {
 /* support and delivery info style area */
 
 .support-delivery-info-contianer {
+  background-color: rgba(39, 39, 39, 0.05);
+  width: 80vw;
+  margin: auto;
 }
 
 .informations {
   height: 30vh;
   margin: 130px 125px;
   border-radius: 8px;
-  background-color: rgba(39, 39, 39, 0.05);
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -256,3 +262,32 @@ main {
   border-radius: 8px;
 }
 /* main area style end */
+
+/* footer area style start */
+
+footer {
+  background-color: #111010;
+  padding: 120px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 22px;
+  margin-bottom: 32px;
+}
+
+.copyright-information {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer area style end */
