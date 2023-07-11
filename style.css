@@ -187,8 +187,8 @@ header {
 }
 .instagram-images-card {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .image-card img {
@@ -201,6 +201,10 @@ header {
   width: 80vw;
   margin: auto;
   margin-top: 128px;
+}
+
+.about-us-description {
+  text-align: center;
 }
 
 .flex {
