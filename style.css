@@ -40,23 +40,15 @@
 header {
   background-color: rgba(229, 84, 115, 0.1);
   margin-bottom: 200px;
-  /* padding: 200px; */
 }
 
 .banner-container {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 100px;
   width: 80vw;
   margin: 0 auto;
   padding-top: 20px;
-}
-
-.banner-content {
-  /* width: 50%; */
-  /* padding-right: 100px; */
-  /* padding-bottom: 140px; */
 }
 
 .banner-title {
@@ -66,11 +58,6 @@ header {
   padding-bottom: 32px;
 }
 
-.banner-image {
-  /* width: 60%; */
-  /* margin-right: 100px; */
-  /* padding-right: 100px; */
-}
 .banner-img {
   width: 50%;
   height: 100%;
@@ -78,11 +65,6 @@ header {
 /* header area style end */
 
 /* main area style start */
-
-main {
-  /* width: 80vw;
-  margin: auto; */
-}
 
 /* featured flowers section  */
 .featured-flowers {
@@ -191,10 +173,6 @@ main {
   padding: 20px 80px;
 }
 
-/* .hot-deal-img {
-  width: 320px;
-} */
-
 /* instagram area style */
 
 .instagram {
@@ -209,11 +187,49 @@ main {
 }
 .instagram-images-card {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
 .image-card img {
   width: 100%;
+}
+
+/* about us section style */
+
+.about-us-container {
+  width: 80vw;
+  margin: auto;
+  margin-top: 128px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.gift-content {
+  margin: 48px 0;
+}
+
+.wedding-content {
+  flex-direction: row-reverse;
+}
+
+.greetings {
+  color: #e55473;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-title {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.about-us-img {
+  width: 50%;
 }
 
 /* latest deal area style */
@@ -245,7 +261,7 @@ main {
 }
 
 #email {
-  width: 700px;
+  width: 600px;
   padding: 20px;
   background-color: #fff;
   border: 0;
