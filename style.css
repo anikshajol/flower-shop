@@ -105,6 +105,17 @@ main {
   margin-bottom: 32px;
 }
 
+.flower-img {
+  width: 250px;
+  position: absolute;
+  inset: 54px 0 0 0;
+  margin: auto;
+}
+
+.yellow-tulip-img {
+  inset: 22px 0 0 0;
+}
+
 .flowers {
   display: flex;
   justify-content: space-between;
@@ -131,34 +142,21 @@ main {
   font-weight: 700;
 }
 
-.flower-img {
-  width: 62%;
-  position: absolute;
-  inset: 95px 0 0 0;
-  margin: auto;
-}
-
-.yellow-tulip-img {
-  inset: 66px 0 0 0;
-}
-
 /* support and delivery info style area */
 
 .support-delivery-info-contianer {
   background-color: rgba(39, 39, 39, 0.05);
   width: 80vw;
-  margin: auto;
+  margin: 128px auto;
 }
 
 .informations {
-  height: 30vh;
-  margin: 130px 125px;
+  padding: 70px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   gap: 100px;
   align-items: center;
-  padding: 86px 120px;
 }
 
 .info-description {
